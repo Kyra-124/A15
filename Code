@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A yearly lecture series with spealers that present new information on a wide range of subjects">
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="stylesheet" href="styles/normalize.css">
+<link rel="stylesheet" href="styles/slicknav.css">
+<link rel="stylesheet" href="styles/main.css">
+<title>San Joaquin Valley Town Hall</title>
+</head>
+<body>
+<header>
+<img src="https://chucktario.github.io/projects/town_hall/images/town_hall_logo.gif" alt="Town Hall Logo" height="80">
+<h2>San Joaquin Valley Town Hall</h2>
+<h3>Celebrating our <span class="shadow">75<sup>th</sup></span> Year</h3>
+</header>
+<nav id="mobile_menu"></nav>
+<nav id="nav_menu">
+<ul>
+<li><a href="index.html" class="current">Home</a></li>
+<li><a href="#speakers">Speakers</a></li>
+<li><a href="luncheons.html">Luncheons</a></li>
+<li><a href="tickets.html">Tickets</a></li>
+<li><a href="#about">About Us</a>
+<ul>
+<li><a href="#">Our History</a></li>
+<li><a href="#">Board of Directors</a></li>
+<li><a href="#">Past Speakers</a></li>
+<li><a href="#">Contact Information</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+
+<main>
+  
+<section>
+<h2>Our Mission</h2>
+
+<p>San Joaquin Valley Town Hall is a non-profit organization that is run by an all-volunteer board of directors. Our mission is to bring nationally and internationally renowned, thought-provoking speakers who inform, educate, and entertain our audience! As one or our members told us:</p>
+  
+<blockquote><q>Each year I give a ticket package to each of our family members. I think of it as the gift of knowledge...and that is priceless.</q></blockquote>
+  
+<h1>Speaker of the Month</h1>
+<article>
+<h2>Fossil Threads in the Web of Life</h2>
+<img src="https://th.bing.com/th/id/R.200a0d331ec7987bf52bfb9c7eb3a57a?rik=KTJexWncMfq5%2fQ&riu=http%3a%2f%2fremote.itiwebcert.com%2f2020%2fSpring%2fPortfolio%2fDutta-R%2fHTML5-CSS3%2fSession_V-VII%2fimages%2fsampson_dinosaur.jpg&ehk=S6ulr%2fnO%2bNDqPz6ZeHJR48ogHCSyCFwxEJYdgTvncik%3d&risl=&pid=ImgRaw&r=0" alt="image of Sampson with a dinosaur fossil">
+<h3>
+February<br>
+Scott Sampson
+</h3>
+<p>
+What's 75 million years old and brand spanking new? A teenage Utahceratops! Come to the Saroyan, armed with your best dinosaur roar, when Scott Sampson, Research Curator at the Utah Museum of Natural History, steps to the podium. Sampson's research has focused on the ecology and evolution of late Cretaceous dinosaurs and he has conducted fieldwork in a number of countries in Africa.
+</p>
+<p>
+<a href="speakers/sampson.html">Read more.</a>&nbsp;
+<a href="media/sampson.mp4" type="video/mp4">Or play video</a>
+</p>
+</article>
+  
+<h2>Our Ticket Packages</h2>
+<ul>
+<li>Season Package: $95</li>
+<li>Patron Package: $200</li>
+<li>Single Speaker: $25</li>
+</ul>
+</section>
+  
+<aside>
+<h2>Guest speakers</h2>
+<div id="speakers">
+<h3>
+October<br>
+<a href="speakers/toobin.html">Jeffrey Toobin</a>
+</h3>
+<img src="https://static01.nyt.com/images/2012/10/23/arts/SUB-23BOOK-jp2/SUB-23BOOK-jp2-jumbo.jpg?quality=75&auto=webp&disable=upscale" height= 105 width= 90 alt="Image of Toobin">
+<h3>
+November<br>
+<a href="speakers/sorkin.html">Andrew Ross Sorkin</a>
+</h3>
+<img src="https://i.pinimg.com/736x/dd/b4/c8/ddb4c801fcbc75b06870682ecda9b94e.jpg" height= 105 width= 90 alt="image of sorkin">
+<h3>
+January<br>
+<a href="speakers/chua.html">Amy Chua</a>
+</h3>
+<img src="https://aspenideasfestival.imgix.net/03f95617-d633-42fd-930c-febedae48a67/Chua_Amy_AIF2018.jpg?auto=compress%2Cformat&fit=min&fm=jpg&q=80&rect=0%2C0%2C1000%2C1000" height= 105 width= 90 alt="image of Chua">
+<h3>
+February<br>
+<a href="speakers/sampson.html">Scott Sampson</a>
+</h3>
+<img src="https://th.bing.com/th/id/R.9f8daf8a3b6792253bc6f4d4f421d81b?rik=2zS%2fSpS%2btd7rIg&riu=http%3a%2f%2fstatic1.squarespace.com%2fstatic%2f537e88a6e4b078fc56661bfc%2f5436ded6e4b0e78dea90004f%2f55020944e4b0878db9106cfc%2f1494253313358%2f%3fformat%3d1000w&ehk=h2MgHOUydb66RZ7GjvFVyAdjbIINy0G1IS7wQZ7Jxng%3d&risl=&pid=ImgRaw&r=0" height= 105 width= 90 alt="image of Sampson">
+</div>
+</aside>
+  
+</main>
+
+<footer>
+<p>&copy; 2022, April 20. Kyra Young, Hackensack, NJ 07660</p>
+</footer>
+
+<script
+src="https://code.jquery.com/jquery-3.5.1.min.js"
+integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+crossorigin="anonymous">
+</script>
+<script src="js/jquery.slicknav.min.js"></script>
+<script>
+$(document).ready(function(){
+$('#nav_menu').slicknav({prependTo: '#mobile_menu'});
+});
+</script>
+</body>
+</html>
+
+<style>
+margin: 0;
+padding: 0;
+}
+
+/* the styles for the elements */
+html {
+background-color: #fff;
+}
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 99%;
+max-width: 960px;
+margin: 0 auto;
+border: 3px solid #931420;
+background-color: #fffded;
+}
+
+a:hover, a:focus {
+font-style: italic;
+}
+
+/* the styles for the header */
+header {
+border-bottom: 3px solid #931420;
+padding: 1.5em 0 2em 0;
+background-image: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+}
+
+header img {
+float: left;
+padding: 0 3.75%;
+}
+
+header h2 {
+font-size: 175%;
+color: #800000;
+}
+
+header h3 {
+font-size: 130%;
+font-style: italic;
+}
+
+header .shadow {
+text-shadow: 2px 2px 3px #800000;
+}
+
+/* * Styles for the nav-menu */
+/* #nav_menu {
+position: relative;
+} */
+/* ? hide mobile nav */
+#mobile_menu {
+display: none;
+}
+
+#nav_menu ul {
+/* width: 100%; */
+position: relative;
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+#nav_menu ul li {
+width: 20%;
+float: left;
+}
+
+#nav_menu ul li a {
+display: block;
+text-align: center;
+padding: 1em 0;
+text-decoration: none;
+background-color: #800000;
+color: #fff;
+font-weight: bold;
+}
+
+#nav_menu ul li a.current {
+color: yellow;
+}
+
+#nav_menu ul ul {
+width: 100%;
+display: none;
+position: absolute;
+top: 100%;
+}
+
+#nav_menu ul ul li {
+float: none;
+}
+
+#nav_menu ul li:hover > ul {
+display: block;
+}
+
+#nav_menu ul::after {
+content: "";
+display: block;
+clear: both;
+}
+
+/* the styles for the main section */
+main {
+clear: left;
+/* padding: 0; */
+}
+
+/* section styles */
+section {
+width: 65.625%;
+float: right;
+padding: 0 2.5% 20px 2.5%;
+}
+
+section h2 {
+font-size: 130%;
+color: #800000;
+padding: .5em 0 .25em 0;
+}
+
+section p {
+padding-bottom: .5em;
+}
+
+section blockquote {
+padding: 0 2em;
+font-style: italic;
+}
+
+section h1 {
+font-size: 150%;
+padding-top: .5em;
+padding-bottom: .25em;
+margin: 0;
+}
+
+section ul {
+padding-bottom: .25em;
+padding-left: 1.25em;
+}
+
+section li {
+padding-bottom: .35em;
+list-style-type: circle;
+}
+
+/* article styling */
+article {
+padding: .5em 0;
+border-top: 2px solid #800000;
+border-bottom: 2px solid #800000;
+}
+
+article h2 {
+padding-top: 0;
+}
+
+article h3 {
+font-size: 105%;
+padding-bottom: .25em;
+}
+
+article img {
+min-width: 150px;
+max-width: 40%;
+float: right;
+margin: .5em 0 1em 1em;
+border: 1px solid #000;
+}
+
+/* aside styles */
+aside {
+width: 26.875%;
+padding: 0 0 20px 2.5%;
+float: right;
+}
+
+aside h2 {
+font-size: 130%;
+color: #800000;
+padding: .5em 0 .25em 0;
+}
+
+aside h3 {
+font-size: 105%;
+padding-bottom: .25em;
+}
+
+aside img {
+padding-bottom: 1em;
+}
+
+/* the styles for the footer */
+footer {
+clear: both;
+background-color: #931420;
+}
+
+footer p {
+color: #fff;
+text-align: center;
+padding: 1em 0;
+}
+
+/* * Tablet in portrait view to standard 960px */
+@media only screen and (max-width: 959px){
+section h1 {
+font-size: 135%;
+}
+section h2, aside h2 {
+font-size: 120%;
+}
+
+/* * phone in landscape to tablet portrait 768px */
+@media only screen and (max-width: 767px){
+header img {
+float: none;
+}
+header {
+text-align: center;
+}
+section {
+float: none;
+width: 95%;
+}
+section img {
+max-width: 30%;
+}
+aside {
+float: none;
+padding-right: 2.5%;
+width: 95%;
+}
+#speakers {
+column-count: 2;
+}
+#nav_menu {
+display: none;
+}
+#mobile_menu {
+display: block;
+}
+.slicknav_menu {
+background-color: #800000;
+}
+}
+
+/* * phone portrait to phone landscape 480px */
+@media only screen and (max-width: 479px){
+body {
+font-size: 90%;
+}
+}
+}
+</style>
